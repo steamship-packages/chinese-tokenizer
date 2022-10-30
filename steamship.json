@@ -1,0 +1,29 @@
+{
+  "type": "package",
+  "handle": "chinese-tokenizer",
+  "version": "1.0.3",
+  "public": true,
+  "description": "",
+  "author": "",
+  "entrypoint": "src.api.handler",
+  "build_config": {
+    "ignore": ["tests", "notebooks", "examples"]
+  },
+  "configTemplate": {
+  },
+  "steamshipRegistry": {
+    "tagline": "Tokenizes Chinese text and adds transliterations and English translation.",
+    "tagline2": "Saves results for quick recall later.",
+    "usefulFor": "Useful for language learning tools building.",
+    "videoUrl": null,
+    "githubUrl": "https://github.com/steamship-packages/chinese-tokenizer/",
+    "demoUrl": null,
+    "blogUrl": null,
+    "jupyterUrl": "https://github.com/steamship-packages/audio-markdown/blob/main/examples/chinese-tokenizer-python-client-demo.ipynb",
+    "authorName": "Steamship",
+    "authorEmail": "hello@steamship.com",
+    "authorTwitter": "@GetSteamship",
+    "authorUrl": "https://www.steamship.com/",
+    "tags": ["Chinese", "education", "tokenization", "translation", "CEDict"]
+  }
+}
